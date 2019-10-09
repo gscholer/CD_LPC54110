@@ -1,0 +1,15 @@
+"C:\Program Files\IAR Systems\Embedded Workbench 7.6\arm\bin\armproc.dll" 
+
+"C:\Program Files\IAR Systems\Embedded Workbench 7.6\arm\bin\armjlink2.dll" 
+
+"D:\LQ\IAR\lpc54110\cd\software\software\prj_iar\Debug\Exe\board_test.out" 
+
+--plugin "C:\Program Files\IAR Systems\Embedded Workbench 7.6\arm\bin\armbat.dll" 
+
+--device_macro "C:\Program Files\IAR Systems\Embedded Workbench 7.6\arm\config\debugger\NXP\LPC5411x_M4.dmac" 
+
+--flash_loader "C:\Program Files\IAR Systems\Embedded Workbench 7.6\arm\config\flashloader\NXP\FlashNXPLPC5411xM4F256K.board" 
+
+
+
+

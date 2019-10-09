@@ -1,0 +1,1185 @@
+###############################################################################
+#
+# IAR ELF Linker V7.60.2.11341/W32 for ARM                08/Dec/2016  13:39:31
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Exe\board_test.out.tmp
+#    Map file     =  
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\List\board_test.map
+#    Command line =  
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\app_adc.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\app_dmic.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\app_interrupt.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\app_key.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\app_led.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\app_pct2075.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\app_spiflash.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\app_spiSD.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\app_usbdmsc.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\app_wm8904.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\application.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\board.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\clock_config.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\diskio.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\ff.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_adc.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_clock.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_common.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_crc.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_ctimer.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_debug_console.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_dma.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_dmic.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_dmic_dma.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_flashiap.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_flexcomm.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_fmeas.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_gint.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_gpio.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_i2c.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_i2c_dma.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_i2s.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_i2s_dma.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_inputmux.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_mrt.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_notifier.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_pint.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_power.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_reset.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_rtc.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_sbrk.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_sctimer.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_shell.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_spi.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_spi_dma.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_usart.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_usart_dma.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_utick.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\fsl_wwdt.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\csp\iar\iar_lib_power.a
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\pin_mux.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\startup_LPC54114_cm4.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\system_LPC54114_cm4.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\usb_device_ch9.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\usb_device_class.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\usb_device_dci.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\usb_device_descriptor.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\usb_device_lpcip3511.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\usb_device_msc.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\usb_device_msc_ufi.o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj\usb_osa_bm.o
+#        -o
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Exe\board_test.out.tmp
+#        --map
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\List\board_test.map
+#        --config
+#        D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar/../csp/iar/LPC54114J256_cm4.icf
+#        --semihosting --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = DLMalloc
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"P1":  place in [from 0x00000000 to 0x000000df] |
+                [from 0x000000e0 to 0x000002fb] |
+                [from 0x00000300 to 0x0002ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2000ffdf] { block RW };
+"P3":  place in [from 0x20000000 to 0x2000ffdf] { block ZI };
+"P5":  place in [from 0x04000000 to 0x04007fff] { block CSTACK };
+"P6":  place in [from 0x000002fc to 0x000002ff] { section .crp };
+initialize by copy { rw };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                       0xf4
+  .intvec            ro code  0x00000000    0xf4  startup_LPC54114_cm4.o [1]
+                            - 0x000000f4    0xf4
+
+"P6":                                        0x4
+  .crp               ro code  0x000002fc     0x4  startup_LPC54114_cm4.o [1]
+                            - 0x00000300     0x4
+
+"P1":                                     0x9510
+  .text              ro code  0x00000300   0xd5e  usb_device_msc.o [1]
+  .rodata            const    0x0000105e     0x2  fsl_adc.o [1]
+  .text              ro code  0x00001060   0x898  usb_device_msc_ufi.o [1]
+  .text              ro code  0x000018f8   0x560  usb_device_dci.o [1]
+  .text              ro code  0x00001e58   0x3b0  usb_device_class.o [1]
+  .text              ro code  0x00002208    0x12  usb_osa_bm.o [1]
+  .rodata            const    0x0000221a     0x2  fsl_dmic.o [1]
+  .text              ro code  0x0000221c   0x71c  usb_device_ch9.o [1]
+  .text              ro code  0x00002938   0x942  usb_device_lpcip3511.o [1]
+  .text              ro code  0x0000327a     0x2  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x0000327c   0x840  fsl_i2s_dma.o [1]
+  .text              ro code  0x00003abc    0xc0  fsl_common.o [1]
+  .text              ro code  0x00003b7c    0x66  ABImemset.o [6]
+  .text              ro code  0x00003be2     0x2  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x00003be4   0x784  fsl_dma.o [1]
+  .text              ro code  0x00004368     0x6  ABImemclr4.o [6]
+  .text              ro code  0x0000436e     0x2  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x00004370   0x3bc  fsl_debug_console.o [1]
+  .text              ro code  0x0000472c    0x32  ABImemset48.o [6]
+  .text              ro code  0x0000475e     0x2  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x00004760   0x2bc  fsl_usart.o [1]
+  .text              ro code  0x00004a1c    0x36  strlen.o [6]
+  .text              ro code  0x00004a52     0x2  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x00004a54   0x284  fsl_flexcomm.o [1]
+  .text              ro code  0x00004cd8   0x798  fsl_clock.o [1]
+  .text              ro code  0x00005470    0xee  I64DivMod.o [6]
+  .text              ro code  0x0000555e     0x2  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x00005560     0x2  I64DivZer.o [6]
+  .text              ro code  0x00005562     0x2  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x00005564   0x628  app_wm8904.o [1]
+  .text              ro code  0x00005b8c   0x390  fsl_i2c.o [1]
+  .text              ro code  0x00005f1c    0xba  fsl_reset.o [1]
+  .text              ro code  0x00005fd6     0x2  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x00005fd8   0x100  app_led.o [1]
+  .text              ro code  0x000060d8   0x1a0  fsl_i2s.o [1]
+  .text              ro code  0x00006278   0x434  fsl_spi.o [1]
+  Initializer bytes  const    0x000066ac   0x33c  <for RW-1>
+  .text              ro code  0x000069e8   0x308  system_LPC54114_cm4.o [1]
+  .text              ro code  0x00006cf0   0x2a4  fsl_dmic.o [1]
+  .text              ro code  0x00006f94   0x2a2  app_usbdmsc.o [1]
+  .rodata            const    0x00007236     0x1  app_usbdmsc.o [1]
+  .rodata            const    0x00007237     0x1  fsl_dma.o [1]
+  .text              ro code  0x00007238    0xac  usb_device_descriptor.o [1]
+  .text              ro code  0x000072e4   0x270  application.o [1]
+  .text              ro code  0x00007554    0x68  pin_mux.o [1]
+  .text              ro code  0x000075bc    0x48  clock_config.o [1]
+  .text              ro code  0x00007604    0x44  board.o [1]
+  .text              ro code  0x00007648    0xb4  app_key.o [1]
+  .text              ro code  0x000076fc   0x16c  app_adc.o [1]
+  .text              ro code  0x00007868   0x248  app_dmic.o [1]
+  .text              ro code  0x00007ab0   0x15c  app_spiflash.o [1]
+  .text              ro code  0x00007c0c   0x128  app_pct2075.o [1]
+  .text              ro code  0x00007d34   0x13c  fsl_power_lib.o [4]
+  .text              ro code  0x00007e70   0x1fc  fsl_adc.o [1]
+  .text              ro code  0x0000806c    0x4e  FltToDbl.o [5]
+  .rodata            const    0x000080ba     0x1  fsl_dmic.o [1]
+  .text              ro code  0x000080bc   0x1a2  DblMul.o [5]
+  .text              ro code  0x00008260    0x90  DblToFlt.o [5]
+  .text              ro code  0x000082f0   0x174  fsl_pint.o [1]
+  .text              ro code  0x00008464    0xb6  fsl_ctimer.o [1]
+  .text              ro code  0x0000851c    0x7c  app_interrupt.o [1]
+  .rodata            const    0x00008598    0x68  fsl_dma.o [1]
+  .rodata            const    0x00008600    0x68  fsl_dma.o [1]
+  .rodata            const    0x00008668    0x5c  fsl_spi.o [1]
+  .rodata            const    0x000086c4    0x54  fsl_dma.o [1]
+  .text              ro code  0x00008718    0x50  fsl_gint.o [1]
+  .text              ro code  0x00008768    0x50  startup_LPC54114_cm4.o [1]
+  .rodata            const    0x000087b8    0x4c  fsl_dma.o [1]
+  .rodata            const    0x00008804    0x48  app_dmic.o [1]
+  .rodata            const    0x0000884c    0x48  app_wm8904.o [1]
+  .rodata            const    0x00008894    0x48  fsl_i2s_dma.o [1]
+  .rodata            const    0x000088dc    0x44  fsl_dma.o [1]
+  .rodata            const    0x00008920    0x44  fsl_dma.o [1]
+  .rodata            const    0x00008964    0x44  fsl_dma.o [1]
+  .rodata            const    0x000089a8    0x44  fsl_dma.o [1]
+  .rodata            const    0x000089ec    0x44  fsl_flexcomm.o [1]
+  .rodata            const    0x00008a30    0x40  fsl_dmic.o [1]
+  .rodata            const    0x00008a70    0x40  fsl_i2s_dma.o [1]
+  .rodata            const    0x00008ab0    0x40  fsl_reset.o [1]
+  .rodata            const    0x00008af0    0x40  fsl_spi.o [1]
+  .rodata            const    0x00008b30    0x40  fsl_usart.o [1]
+  .rodata            const    0x00008b70    0x40  fsl_usart.o [1]
+  .text              ro code  0x00008bb0    0x40  zero_init3.o [6]
+  .rodata            const    0x00008bf0    0x3c  board.o [1]
+  .rodata            const    0x00008c2c    0x3c  fsl_adc.o [1]
+  .rodata            const    0x00008c68    0x3c  fsl_dma.o [1]
+  .rodata            const    0x00008ca4    0x3c  fsl_dma.o [1]
+  .rodata            const    0x00008ce0    0x3c  fsl_dma.o [1]
+  .rodata            const    0x00008d1c    0x3c  fsl_dma.o [1]
+  .rodata            const    0x00008d58    0x3c  fsl_i2c.o [1]
+  .rodata            const    0x00008d94    0x3c  fsl_i2s.o [1]
+  .rodata            const    0x00008dd0    0x3c  fsl_spi.o [1]
+  .rodata            const    0x00008e0c    0x3c  fsl_spi.o [1]
+  .rodata            const    0x00008e48    0x3c  fsl_spi.o [1]
+  .rodata            const    0x00008e84    0x3c  fsl_usart.o [1]
+  .rodata            const    0x00008ec0    0x38  fsl_dma.o [1]
+  .rodata            const    0x00008ef8    0x34  fsl_dma.o [1]
+  .rodata            const    0x00008f2c    0x34  usb_device_ch9.o [1]
+  .rodata            const    0x00008f60    0x30  app_wm8904.o [1]
+  .rodata            const    0x00008f90    0x30  fsl_dma.o [1]
+  .rodata            const    0x00008fc0    0x2c  fsl_common.o [1]
+  .text              ro code  0x00008fec    0x2c  copy_init3.o [6]
+  .rodata            const    0x00009018    0x28  app_wm8904.o [1]
+  .rodata            const    0x00009040    0x28  application.o [1]
+  .rodata            const    0x00009068    0x28  fsl_adc.o [1]
+  .rodata            const    0x00009090    0x28  fsl_dma.o [1]
+  .rodata            const    0x000090b8    0x28  fsl_dma.o [1]
+  .rodata            const    0x000090e0    0x28  fsl_dmic.o [1]
+  .rodata            const    0x00009108    0x28  fsl_i2s_dma.o [1]
+  .text              ro code  0x00009130    0x28  data_init.o [6]
+  .rodata            const    0x00009158    0x24  application.o [1]
+  .rodata            const    0x0000917c    0x24  application.o [1]
+  .rodata            const    0x000091a0    0x24  application.o [1]
+  .rodata            const    0x000091c4    0x24  fsl_usart.o [1]
+  .text              ro code  0x000091e8    0x22  fpinit_M.o [5]
+  .iar.init_table    const    0x0000920c    0x24  - Linker created -
+  .rodata            const    0x00009230    0x20  app_usbdmsc.o [1]
+  .rodata            const    0x00009250    0x20  application.o [1]
+  .rodata            const    0x00009270    0x20  fsl_clock.o [1]
+  .rodata            const    0x00009290    0x20  fsl_flexcomm.o [1]
+  .rodata            const    0x000092b0    0x20  fsl_i2s_dma.o [1]
+  .rodata            const    0x000092d0    0x20  system_LPC54114_cm4.o [1]
+  .rodata            const    0x000092f0    0x20  usb_device_class.o [1]
+  .text              ro code  0x00009310    0x20  fsl_utick.o [1]
+  .rodata            const    0x00009330    0x1c  app_usbdmsc.o [1]
+  .rodata            const    0x0000934c    0x1c  app_wm8904.o [1]
+  .rodata            const    0x00009368    0x1c  board.o [1]
+  .rodata            const    0x00009384    0x1c  fsl_spi.o [1]
+  .text              ro code  0x000093a0    0x1a  cmain.o [6]
+  .text              ro code  0x000093ba     0x4  low_level_init.o [3]
+  .text              ro code  0x000093be     0x4  exit.o [3]
+  .text              ro code  0x000093c4     0xa  cexit.o [6]
+  .text              ro code  0x000093d0    0x14  exit.o [7]
+  .rodata            const    0x000093e4    0x18  app_wm8904.o [1]
+  .rodata            const    0x000093fc    0x18  fsl_adc.o [1]
+  .rodata            const    0x00009414    0x18  fsl_flexcomm.o [1]
+  .rodata            const    0x0000942c    0x18  fsl_flexcomm.o [1]
+  .rodata            const    0x00009444    0x18  fsl_flexcomm.o [1]
+  .rodata            const    0x0000945c    0x18  fsl_flexcomm.o [1]
+  .rodata            const    0x00009474    0x18  fsl_flexcomm.o [1]
+  .rodata            const    0x0000948c    0x18  fsl_flexcomm.o [1]
+  .rodata            const    0x000094a4    0x18  fsl_flexcomm.o [1]
+  .rodata            const    0x000094bc    0x18  fsl_flexcomm.o [1]
+  .rodata            const    0x000094d4    0x18  fsl_i2s_dma.o [1]
+  .rodata            const    0x000094ec    0x18  usb_device_dci.o [1]
+  .rodata            const    0x00009504    0x14  fsl_ctimer.o [1]
+  .rodata            const    0x00009518    0x14  fsl_i2s_dma.o [1]
+  .rodata            const    0x0000952c    0x14  fsl_i2s_dma.o [1]
+  .text              ro code  0x00009540    0x14  fsl_sctimer.o [1]
+  .rodata            const    0x00009554    0x10  app_dmic.o [1]
+  .rodata            const    0x00009564    0x10  app_spiflash.o [1]
+  .rodata            const    0x00009574    0x10  app_spiflash.o [1]
+  .rodata            const    0x00009584    0x10  application.o [1]
+  .rodata            const    0x00009594    0x10  fsl_adc.o [1]
+  .rodata            const    0x000095a4    0x10  fsl_adc.o [1]
+  .rodata            const    0x000095b4    0x10  fsl_dma.o [1]
+  .rodata            const    0x000095c4    0x10  fsl_dma.o [1]
+  .rodata            const    0x000095d4    0x10  fsl_dma.o [1]
+  .rodata            const    0x000095e4    0x10  fsl_flexcomm.o [1]
+  .rodata            const    0x000095f4    0x10  fsl_reset.o [1]
+  .rodata            const    0x00009604    0x10  fsl_spi.o [1]
+  .rodata            const    0x00009614    0x10  fsl_spi.o [1]
+  .rodata            const    0x00009624    0x10  fsl_usart.o [1]
+  .rodata            const    0x00009634     0xc  fsl_i2s_dma.o [1]
+  .text              ro code  0x00009640     0xc  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x0000964c     0xc  cstartup_M.o [6]
+  .rodata            const    0x00009658     0x8  app_led.o [1]
+  .rodata            const    0x00009660     0x8  app_led.o [1]
+  .rodata            const    0x00009668     0x8  app_led.o [1]
+  .rodata            const    0x00009670     0x8  app_led.o [1]
+  .rodata            const    0x00009678     0x8  fsl_dmic.o [1]
+  .rodata            const    0x00009680     0x8  fsl_flexcomm.o [1]
+  .rodata            const    0x00009688     0x8  fsl_gint.o [1]
+  .rodata            const    0x00009690     0x8  fsl_i2c.o [1]
+  .rodata            const    0x00009698     0x8  fsl_i2c.o [1]
+  .rodata            const    0x000096a0     0x8  fsl_i2c.o [1]
+  .rodata            const    0x000096a8     0x8  fsl_i2s.o [1]
+  .rodata            const    0x000096b0     0x8  fsl_i2s_dma.o [1]
+  .rodata            const    0x000096b8     0x8  fsl_i2s_dma.o [1]
+  .rodata            const    0x000096c0     0x8  fsl_i2s_dma.o [1]
+  .text              ro code  0x000096c8     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x000096d0     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x000096d8     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x000096e0     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x000096e8     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x000096f0     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x000096f8     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x00009700     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x00009708     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x00009710     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x00009718     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x00009720     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x00009728     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x00009730     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x00009738     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x00009740     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x00009748     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x00009750     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x00009758     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x00009760     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x00009768     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x00009770     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x00009778     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x00009780     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x00009788     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x00009790     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x00009798     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x000097a0     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x000097a8     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x000097b0     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x000097b8     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x000097c0     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x000097c8     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x000097d0     0x8  startup_LPC54114_cm4.o [1]
+  .text              ro code  0x000097d8     0x8  startup_LPC54114_cm4.o [1]
+  .rodata            const    0x000097e0     0x4  app_key.o [1]
+  .rodata            const    0x000097e4     0x4  app_key.o [1]
+  .rodata            const    0x000097e8     0x4  fsl_adc.o [1]
+  .rodata            const    0x000097ec     0x4  fsl_clock.o [1]
+  .rodata            const    0x000097f0     0x4  fsl_dma.o [1]
+  .rodata            const    0x000097f4     0x4  fsl_dmic.o [1]
+  .rodata            const    0x000097f8     0x4  usb_device_lpcip3511.o [1]
+  .rodata            const    0x000097fc     0x4  usb_device_lpcip3511.o [1]
+  .rodata            const    0x00009800     0x4  usb_device_msc.o [1]
+  .rodata            const    0x00009804     0x4  usb_device_msc.o [1]
+  .rodata            const    0x00009808     0x4  usb_device_msc.o [1]
+  .rodata            const    0x0000980c     0x4  usb_device_msc_ufi.o [1]
+  .rodata            const    0x00009810     0x0  zero_init3.o [6]
+  .rodata            const    0x00009810     0x0  copy_init3.o [6]
+                            - 0x00009810  0x9510
+
+"P5":                                      0x400
+  CSTACK                      0x04000000   0x400  <Block>
+    CSTACK           uninit   0x04000000   0x400  <Block tail>
+                            - 0x04000400   0x400
+
+"P2":                                      0x33c
+  RW                          0x20000000   0x33c  <Block>
+    RW-1                      0x20000000   0x33c  <Init block>
+      .data          inited   0x20000000    0x24  app_usbdmsc.o [1]
+      .data          inited   0x20000024     0x4  app_adc.o [1]
+      .data          inited   0x20000028     0x4  app_interrupt.o [1]
+      .data          inited   0x2000002c     0xc  app_usbdmsc.o [1]
+      .data          inited   0x20000038     0xc  app_usbdmsc.o [1]
+      .data          inited   0x20000044   0x1b0  app_wm8904.o [1]
+      .data          inited   0x200001f4     0x4  system_LPC54114_cm4.o [1]
+      .data          inited   0x200001f8     0x8  usb_device_descriptor.o [1]
+      .data          inited   0x20000200    0x10  usb_device_descriptor.o [1]
+      .data          inited   0x20000210     0xc  usb_device_descriptor.o [1]
+      .data          inited   0x2000021c     0x8  usb_device_descriptor.o [1]
+      .data          inited   0x20000224     0x8  usb_device_descriptor.o [1]
+      .data          inited   0x2000022c    0x14  usb_device_descriptor.o [1]
+      .data          inited   0x20000240    0x20  usb_device_descriptor.o [1]
+      .data          inited   0x20000260     0x4  usb_device_descriptor.o [1]
+      .data          inited   0x20000264    0x28  usb_device_descriptor.o [1]
+      .data          inited   0x2000028c    0x24  usb_device_descriptor.o [1]
+      .data          inited   0x200002b0    0x24  usb_device_descriptor.o [1]
+      .data          inited   0x200002d4    0x24  usb_device_descriptor.o [1]
+      .data          inited   0x200002f8    0x14  usb_device_descriptor.o [1]
+      .data          inited   0x2000030c    0x14  usb_device_descriptor.o [1]
+      .data          inited   0x20000320     0xc  usb_device_descriptor.o [1]
+      .data          inited   0x2000032c    0x10  usb_device_descriptor.o [1]
+                            - 0x2000033c   0x33c
+
+"P3":                                     0x68d8
+  ZI                          0x20000400  0x68d8  <Block>
+    .bss             zero     0x20000400   0x140  fsl_dma.o [1]
+    .bss             zero     0x20000600   0x118  usb_device_lpcip3511.o [1]
+    .bss             zero     0x20000740     0x8  app_usbdmsc.o [1]
+    .bss             zero     0x20000780  0x6000  app_usbdmsc.o [1]
+    m_usb_global     zero     0x20006780    0x20  usb_device_msc.o [1]
+    m_usb_global     zero     0x200067c0    0x10  usb_device_msc.o [1]
+    m_usb_global     zero     0x20006800    0x40  usb_device_msc.o [1]
+    .bss             zero     0x20006840    0x40  fsl_i2s_dma.o [1]
+    .bss             zero     0x20006880    0x10  app_adc.o [1]
+    .bss             zero     0x20006890     0x4  app_interrupt.o [1]
+    .bss             zero     0x20006894     0x4  app_interrupt.o [1]
+    .bss             zero     0x20006898    0x10  app_spiflash.o [1]
+    .bss             zero     0x200068a8    0x14  app_usbdmsc.o [1]
+    .bss             zero     0x200068bc    0x10  app_wm8904.o [1]
+    .bss             zero     0x200068cc    0x10  app_wm8904.o [1]
+    .bss             zero     0x200068dc    0x14  app_wm8904.o [1]
+    .bss             zero     0x200068f0    0x14  app_wm8904.o [1]
+    .bss             zero     0x20006904    0x34  app_wm8904.o [1]
+    .bss             zero     0x20006938     0x8  app_wm8904.o [1]
+    .bss             zero     0x20006940     0x8  app_wm8904.o [1]
+    .bss             zero     0x20006948     0x4  app_wm8904.o [1]
+    .bss             zero     0x2000694c     0x4  application.o [1]
+    .bss             zero     0x20006950     0x4  fsl_clock.o [1]
+    .bss             zero     0x20006954     0x4  fsl_clock.o [1]
+    .bss             zero     0x20006958    0x14  fsl_ctimer.o [1]
+    .bss             zero     0x2000696c     0x8  fsl_ctimer.o [1]
+    .bss             zero     0x20006974    0x10  fsl_debug_console.o [1]
+    .bss             zero     0x20006984    0x50  fsl_dma.o [1]
+    .bss             zero     0x200069d4     0x4  fsl_dmic.o [1]
+    .bss             zero     0x200069d8     0x4  fsl_dmic.o [1]
+    .bss             zero     0x200069dc    0x20  fsl_flexcomm.o [1]
+    .bss             zero     0x200069fc    0x20  fsl_flexcomm.o [1]
+    .bss             zero     0x20006a1c     0x8  fsl_gint.o [1]
+    .bss             zero     0x20006a24     0x4  fsl_i2s_dma.o [1]
+    .bss             zero     0x20006a28     0x4  fsl_i2s_dma.o [1]
+    .bss             zero     0x20006a2c    0x68  fsl_i2s_dma.o [1]
+    .bss             zero     0x20006a94    0x20  fsl_pint.o [1]
+    .bss             zero     0x20006ab4     0x4  fsl_sctimer.o [1]
+    .bss             zero     0x20006ab8    0x10  fsl_spi.o [1]
+    .bss             zero     0x20006ac8     0x4  fsl_utick.o [1]
+    .bss             zero     0x20006acc     0x4  fsl_utick.o [1]
+    m_usb_global     zero     0x20006ad0    0x14  usb_device_class.o [1]
+    m_usb_global     zero     0x20006ae4    0x50  usb_device_dci.o [1]
+    m_usb_global     zero     0x20006b34    0xdc  usb_device_msc.o [1]
+    .bss             zero     0x20006c10     0x1  app_adc.o [1]
+                            - 0x20006c14  0x68d8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x6811:
+          0x20000400  0x6811
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x33c:
+          0x000066ac   0x33c
+    1 destination range, total size 0x33c:
+          0x20000000   0x33c
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                   ro code  ro data  rw data
+    ------                   -------  -------  -------
+D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj: [1]
+    app_adc.o                    364        4       21
+    app_dmic.o                   584       88
+    app_interrupt.o              124        4       12
+    app_key.o                    180        8
+    app_led.o                    256       32
+    app_pct2075.o                296
+    app_spiflash.o               348       32       16
+    app_usbdmsc.o                674      121   24 664
+    app_wm8904.o               1 576      644      576
+    application.o                624      196        4
+    board.o                       68       88
+    clock_config.o                72
+    fsl_adc.o                    508      162
+    fsl_clock.o                1 944       36        8
+    fsl_common.o                 192       44
+    fsl_ctimer.o                 182       20       28
+    fsl_debug_console.o          956                16
+    fsl_dma.o                  1 924    1 169      400
+    fsl_dmic.o                   676      119        8
+    fsl_flexcomm.o               644      316       64
+    fsl_gint.o                    80        8        8
+    fsl_i2c.o                    912       84
+    fsl_i2s.o                    416       68
+    fsl_i2s_dma.o              2 112      308      176
+    fsl_pint.o                   372                32
+    fsl_reset.o                  186       80
+    fsl_sctimer.o                 20                 4
+    fsl_spi.o                  1 076      396       16
+    fsl_usart.o                  700      240
+    fsl_utick.o                   32                 8
+    pin_mux.o                    104
+    startup_LPC54114_cm4.o       636
+    system_LPC54114_cm4.o        776       36        4
+    usb_device_ch9.o           1 820       52
+    usb_device_class.o           944       32       20
+    usb_device_dci.o           1 376       24       80
+    usb_device_descriptor.o      172      324      324
+    usb_device_lpcip3511.o     2 370        8      280
+    usb_device_msc.o           3 422       12      332
+    usb_device_msc_ufi.o       2 200        4
+    usb_osa_bm.o                  18
+    --------------------------------------------------
+    Total:                    31 936    4 759   27 101
+
+command line: [2]
+    --------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                         4
+    low_level_init.o               4
+    --------------------------------------------------
+    Total:                         8
+
+iar_lib_power.a: [4]
+    fsl_power_lib.o              316
+    --------------------------------------------------
+    Total:                       316
+
+m7M_tls.a: [5]
+    DblMul.o                     418
+    DblToFlt.o                   144
+    FltToDbl.o                    78
+    fpinit_M.o                    34
+    --------------------------------------------------
+    Total:                       674
+
+rt7M_tl.a: [6]
+    ABImemclr4.o                   6
+    ABImemset.o                  102
+    ABImemset48.o                 50
+    I64DivMod.o                  238
+    I64DivZer.o                    2
+    cexit.o                       10
+    cmain.o                       26
+    copy_init3.o                  44
+    cstartup_M.o                  12
+    data_init.o                   40
+    strlen.o                      54
+    zero_init3.o                  64
+    --------------------------------------------------
+    Total:                       648
+
+shb_l.a: [7]
+    exit.o                        20
+    --------------------------------------------------
+    Total:                        20
+
+    Gaps                           9        2      368
+    Linker created                         36    1 024
+------------------------------------------------------
+    Grand Total:              33 611    4 797   28 493
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.init_table$$Base   0x0000920c           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x00009230           --   Gb  - Linker created -
+?main                   0x000093a1          Code  Gb  cmain.o [6]
+ADC0_SEQA_IRQHandler    0x00008555    0x2a  Code  Gb  app_interrupt.o [1]
+ADC_ClearStatusFlags    0x00008521     0x4  Code  Lc  app_interrupt.o [1]
+ADC_DoSelfCalibration   0x00007f21    0x64  Code  Gb  fsl_adc.o [1]
+ADC_DoSoftwareTriggerConvSeqA
+                        0x00007767     0xa  Code  Lc  app_adc.o [1]
+ADC_EnableConvSeqA      0x0000774d    0x1a  Code  Lc  app_adc.o [1]
+ADC_EnableTemperatureSensor
+                        0x00007733    0x1a  Code  Lc  app_adc.o [1]
+ADC_GetChannelConversionResult
+                        0x00007fdd    0x66  Code  Gb  fsl_adc.o [1]
+ADC_GetInstance         0x00007e93    0x2c  Code  Lc  fsl_adc.o [1]
+ADC_GetStatusFlags      0x0000851d     0x4  Code  Lc  app_interrupt.o [1]
+ADC_Init                0x00007ebf    0x62  Code  Gb  fsl_adc.o [1]
+ADC_SetConvSeqAConfig   0x00007f85    0x58  Code  Gb  fsl_adc.o [1]
+BOARD_BootClockRUN      0x000075cb    0x28  Code  Gb  clock_config.o [1]
+BOARD_InitDebugConsole  0x00007605    0x44  Code  Gb  board.o [1]
+BOARD_InitPins          0x0000758b    0x26  Code  Gb  pin_mux.o [1]
+CLOCK_AttachClk         0x00004d75    0x4e  Code  Gb  fsl_clock.o [1]
+CLOCK_DisableClock      0x00004cff    0x26  Code  Lc  fsl_clock.o [1]
+CLOCK_EnableClock       0x000076fd    0x22  Code  Lc  app_adc.o [1]
+CLOCK_EnableClock       0x00007335    0x22  Code  Lc  application.o [1]
+CLOCK_EnableClock       0x00007e71    0x22  Code  Lc  fsl_adc.o [1]
+CLOCK_EnableClock       0x00004cd9    0x26  Code  Lc  fsl_clock.o [1]
+CLOCK_EnableClock       0x00003bfb    0x26  Code  Lc  fsl_dma.o [1]
+CLOCK_EnableClock       0x00006d19    0x22  Code  Lc  fsl_dmic.o [1]
+CLOCK_EnableClock       0x00004a55    0x22  Code  Lc  fsl_flexcomm.o [1]
+CLOCK_EnableClock       0x00007555    0x22  Code  Lc  pin_mux.o [1]
+CLOCK_EnableUsbfs0Clock
+                        0x000053b1    0x66  Code  Gb  fsl_clock.o [1]
+CLOCK_GetAsyncApbClkFreq
+                        0x00004fb7    0x22  Code  Gb  fsl_clock.o [1]
+CLOCK_GetAsyncApbClkSrc
+                        0x00004d3d     0xc  Code  Lc  fsl_clock.o [1]
+CLOCK_GetCoreSysClkFreq
+                        0x00004f21    0x8e  Code  Gb  fsl_clock.o [1]
+CLOCK_GetExtClkFreq     0x00004e9d     0x8  Code  Gb  fsl_clock.o [1]
+CLOCK_GetFRGInputClock  0x0000503b    0x46  Code  Gb  fsl_clock.o [1]
+CLOCK_GetFlexCommClkFreq
+                        0x00004fd9    0x62  Code  Gb  fsl_clock.o [1]
+CLOCK_GetFreq           0x00005081   0x1c6  Code  Gb  fsl_clock.o [1]
+CLOCK_GetFro12MFreq     0x00004e89    0x14  Code  Gb  fsl_clock.o [1]
+CLOCK_GetFroHfFreq      0x00004ee1    0x32  Code  Gb  fsl_clock.o [1]
+CLOCK_GetI2SMClkFreq    0x00004faf     0x8  Code  Gb  fsl_clock.o [1]
+CLOCK_GetOsc32KFreq     0x00004f1b     0x6  Code  Gb  fsl_clock.o [1]
+CLOCK_GetPllOutFreq     0x00004f13     0x8  Code  Gb  fsl_clock.o [1]
+CLOCK_GetWdtOscFreq     0x00004ea5    0x3c  Code  Gb  fsl_clock.o [1]
+CLOCK_IsSystemPLLLocked
+                        0x00004d49     0xc  Code  Lc  fsl_clock.o [1]
+CLOCK_SetClkDiv         0x00004dc3    0x2e  Code  Gb  fsl_clock.o [1]
+CLOCK_SetFLASHAccessCycles
+                        0x00004d25    0x18  Code  Lc  fsl_clock.o [1]
+CLOCK_SetFLASHAccessCyclesForFreq
+                        0x00005247    0x4a  Code  Gb  fsl_clock.o [1]
+CLOCK_SetPLLFreq        0x000052e5    0xb6  Code  Gb  fsl_clock.o [1]
+CLOCK_SetupFROClocking  0x00004df1    0x98  Code  Gb  fsl_clock.o [1]
+CSTACK$$Base            0x04000000           --   Gb  - Linker created -
+CSTACK$$Limit           0x04000400           --   Gb  - Linker created -
+CTIMER0_DriverIRQHandler
+                        0x000084e9     0xa  Code  Gb  fsl_ctimer.o [1]
+CTIMER1_DriverIRQHandler
+                        0x000084f3     0xa  Code  Gb  fsl_ctimer.o [1]
+CTIMER2_DriverIRQHandler
+                        0x000084fd     0xa  Code  Gb  fsl_ctimer.o [1]
+CTIMER3_DriverIRQHandler
+                        0x00008507     0xa  Code  Gb  fsl_ctimer.o [1]
+CTIMER4_DriverIRQHandler
+                        0x00008511     0xa  Code  Gb  fsl_ctimer.o [1]
+CTIMER_ClearStatusFlags
+                        0x00008469     0x4  Code  Lc  fsl_ctimer.o [1]
+CTIMER_GenericIRQHandler
+                        0x0000846d    0x6e  Code  Gb  fsl_ctimer.o [1]
+CTIMER_GetStatusFlags   0x00008465     0x4  Code  Lc  fsl_ctimer.o [1]
+DMA0_DriverIRQHandler   0x00004265    0x92  Code  Gb  fsl_dma.o [1]
+DMA_AbortTransfer       0x00003fb5    0x6c  Code  Gb  fsl_dma.o [1]
+DMA_ChannelIsActive     0x00003c33    0x36  Code  Lc  fsl_dma.o [1]
+DMA_CreateDescriptor    0x00003edf    0xd6  Code  Gb  fsl_dma.o [1]
+DMA_CreateHandle        0x00004021    0x44  Code  Gb  fsl_dma.o [1]
+DMA_DisableChannel      0x00003caf    0x46  Code  Lc  fsl_dma.o [1]
+DMA_DisableChannelPeriphRq
+                        0x00003d29    0x34  Code  Lc  fsl_dma.o [1]
+DMA_EnableChannel       0x00005579    0x46  Code  Lc  app_wm8904.o [1]
+DMA_EnableChannel       0x00003c69    0x46  Code  Lc  fsl_dma.o [1]
+DMA_EnableChannelPeriphRq
+                        0x00003cf5    0x34  Code  Lc  fsl_dma.o [1]
+DMA_GetInstance         0x00003d5d    0x3a  Code  Lc  fsl_dma.o [1]
+DMA_Init                0x00003d97    0x1a  Code  Gb  fsl_dma.o [1]
+DMA_PrepareTransfer     0x00004087    0xe8  Code  Gb  fsl_dma.o [1]
+DMA_SetCallback         0x00004065    0x22  Code  Gb  fsl_dma.o [1]
+DMA_SetChannelPriority  0x000055bf    0x40  Code  Lc  app_wm8904.o [1]
+DMA_SetupDescriptor     0x00003db1     0xc  Code  Lc  fsl_dma.o [1]
+DMA_SetupXferCFG        0x00003dbd   0x122  Code  Lc  fsl_dma.o [1]
+DMA_StartTransfer       0x000041d3    0x92  Code  Gb  fsl_dma.o [1]
+DMA_SubmitTransfer      0x0000416f    0x64  Code  Gb  fsl_dma.o [1]
+DMIC0_DriverIRQHandler  0x00006f39    0x12  Code  Gb  fsl_dmic.o [1]
+DMIC0_HWVAD_Callback    0x00007943    0x34  Code  Gb  app_dmic.o [1]
+DMIC_ConfigChannel      0x00006e25    0x98  Code  Gb  fsl_dmic.o [1]
+DMIC_ConfigIO           0x00006ddf     0x8  Code  Gb  fsl_dmic.o [1]
+DMIC_CtrlClrIntrHwvad   0x00007921    0x22  Code  Lc  app_dmic.o [1]
+DMIC_EnableChannnel     0x00006ec5     0x6  Code  Gb  fsl_dmic.o [1]
+DMIC_FifoChannel        0x00006ecb    0x4c  Code  Gb  fsl_dmic.o [1]
+DMIC_GetInstance        0x00006d4d    0x2c  Code  Gb  fsl_dmic.o [1]
+DMIC_HwvadEnableIntCallback
+                        0x00006f17    0x22  Code  Gb  fsl_dmic.o [1]
+DMIC_Init               0x00006d79    0x66  Code  Gb  fsl_dmic.o [1]
+DMIC_SetFilterCtrlHwvad
+                        0x000078d9    0x24  Code  Lc  app_dmic.o [1]
+DMIC_SetGainNoiseEstHwvad
+                        0x00007891    0x24  Code  Lc  app_dmic.o [1]
+DMIC_SetGainSignalEstHwvad
+                        0x000078b5    0x24  Code  Lc  app_dmic.o [1]
+DMIC_SetInputGainHwvad  0x000078fd    0x24  Code  Lc  app_dmic.o [1]
+DMIC_SetOperationMode   0x00006de7    0x3e  Code  Gb  fsl_dmic.o [1]
+DMIC_Use2fs             0x00006ebd     0x8  Code  Gb  fsl_dmic.o [1]
+DbgConsole_ConvertRadixNumToString
+                        0x0000443d    0x82  Code  Lc  fsl_debug_console.o [1]
+DbgConsole_Init         0x00004371    0x58  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_Printf       0x000043c9    0x24  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_PrintfFormattedData
+                        0x000044bf   0x262  Code  Lc  fsl_debug_console.o [1]
+DbgConsole_PrintfPaddingCharacter
+                        0x00004415    0x28  Code  Lc  fsl_debug_console.o [1]
+DbgConsole_Putchar      0x000043ed    0x28  Code  Gb  fsl_debug_console.o [1]
+DisableDeepSleepIRQ     0x00003b41    0x24  Code  Gb  fsl_common.o [1]
+DisableIRQ              0x00003af7    0x12  Code  Lc  fsl_common.o [1]
+EnableDeepSleepIRQ      0x00003b1b    0x26  Code  Gb  fsl_common.o [1]
+EnableIRQ               0x00003ae5    0x12  Code  Lc  fsl_common.o [1]
+EnableIRQ               0x00003c21    0x12  Code  Lc  fsl_dma.o [1]
+EnableIRQ               0x00006d3b    0x12  Code  Lc  fsl_dmic.o [1]
+FLEXCOMM0_DriverIRQHandler
+                        0x00004b57    0x28  Code  Gb  fsl_flexcomm.o [1]
+FLEXCOMM1_DriverIRQHandler
+                        0x00004b7f    0x28  Code  Gb  fsl_flexcomm.o [1]
+FLEXCOMM2_DriverIRQHandler
+                        0x00004ba7    0x28  Code  Gb  fsl_flexcomm.o [1]
+FLEXCOMM3_DriverIRQHandler
+                        0x00004bcf    0x28  Code  Gb  fsl_flexcomm.o [1]
+FLEXCOMM4_DriverIRQHandler
+                        0x00004bf7    0x28  Code  Gb  fsl_flexcomm.o [1]
+FLEXCOMM5_DriverIRQHandler
+                        0x00004c1f    0x28  Code  Gb  fsl_flexcomm.o [1]
+FLEXCOMM6_DriverIRQHandler
+                        0x00004c47    0x28  Code  Gb  fsl_flexcomm.o [1]
+FLEXCOMM7_DriverIRQHandler
+                        0x00004c6f    0x28  Code  Gb  fsl_flexcomm.o [1]
+FLEXCOMM_GetInstance    0x00004ab1    0x2c  Code  Gb  fsl_flexcomm.o [1]
+FLEXCOMM_Init           0x00004b2b    0x2c  Code  Gb  fsl_flexcomm.o [1]
+FLEXCOMM_PeripheralIsPresent
+                        0x00004a77    0x3a  Code  Lc  fsl_flexcomm.o [1]
+FLEXCOMM_SetPeriph      0x00004add    0x4e  Code  Gb  fsl_flexcomm.o [1]
+GINT0_DriverIRQHandler  0x00008719    0x22  Code  Gb  fsl_gint.o [1]
+GINT1_DriverIRQHandler  0x0000873b    0x22  Code  Gb  fsl_gint.o [1]
+GPIO_ReadPinInput       0x00007649     0x8  Code  Lc  app_key.o [1]
+GetWdtOscFreq           0x000069e9    0x28  Code  Lc  system_LPC54114_cm4.o [1]
+HWVAD0_IRQHandler       0x00006f4b    0x12  Code  Gb  fsl_dmic.o [1]
+I2C_GetStatusFlags      0x00005bb3     0x6  Code  Lc  fsl_i2c.o [1]
+I2C_MasterClearStatusFlags
+                        0x00005bb9     0xa  Code  Lc  fsl_i2c.o [1]
+I2C_MasterEnable        0x00005b8d    0x26  Code  Lc  fsl_i2c.o [1]
+I2C_MasterGetDefaultConfig
+                        0x00005bcf    0x10  Code  Gb  fsl_i2c.o [1]
+I2C_MasterInit          0x00005bdf    0x24  Code  Gb  fsl_i2c.o [1]
+I2C_MasterReadBlocking  0x00005d73    0xaa  Code  Gb  fsl_i2c.o [1]
+I2C_MasterRepeatedStart
+                        0x00005bc3     0xc  Code  Lc  fsl_i2c.o [1]
+I2C_MasterSetBaudRate   0x00005c03    0x6a  Code  Gb  fsl_i2c.o [1]
+I2C_MasterStart         0x00005c89    0x24  Code  Gb  fsl_i2c.o [1]
+I2C_MasterStop          0x00005cad    0x14  Code  Gb  fsl_i2c.o [1]
+I2C_MasterTransferBlocking
+                        0x00005e1d    0xec  Code  Gb  fsl_i2c.o [1]
+I2C_MasterWriteBlocking
+                        0x00005cc1    0xb2  Code  Gb  fsl_i2c.o [1]
+I2C_PendingStatusWait   0x00005c6d    0x1c  Code  Lc  fsl_i2c.o [1]
+I2S_AddTransferDMA      0x00003719   0x1ca  Code  Lc  fsl_i2s_dma.o [1]
+I2S_Config              0x000061db    0x90  Code  Lc  fsl_i2s.o [1]
+I2S_DMACallback         0x000038e5   0x19a  Code  Gb  fsl_i2s_dma.o [1]
+I2S_Disable             0x0000328b     0xe  Code  Lc  fsl_i2s_dma.o [1]
+I2S_Enable              0x0000327d     0xe  Code  Lc  fsl_i2s_dma.o [1]
+I2S_EnqueueUserBuffer   0x00003299   0x104  Code  Lc  fsl_i2s_dma.o [1]
+I2S_GetInstance         0x0000339d    0x32  Code  Lc  fsl_i2s_dma.o [1]
+I2S_RxEnableDMA         0x0000356d    0x2e  Code  Lc  fsl_i2s_dma.o [1]
+I2S_RxGetDefaultConfig  0x0000619d    0x3e  Code  Gb  fsl_i2s.o [1]
+I2S_RxInit              0x0000611f    0x40  Code  Gb  fsl_i2s.o [1]
+I2S_StartTransferDMA    0x0000359b   0x17e  Code  Lc  fsl_i2s_dma.o [1]
+I2S_TransferAbortDMA    0x00003481    0xbe  Code  Gb  fsl_i2s_dma.o [1]
+I2S_TxEnableDMA         0x0000353f    0x2e  Code  Lc  fsl_i2s_dma.o [1]
+I2S_TxGetDefaultConfig  0x0000615f    0x3e  Code  Gb  fsl_i2s.o [1]
+I2S_TxInit              0x000060d9    0x46  Code  Gb  fsl_i2s.o [1]
+I2S_TxTransferCreateHandleDMA
+                        0x000033cf    0x88  Code  Gb  fsl_i2s_dma.o [1]
+I2S_TxTransferSendDMA   0x00003457    0x2a  Code  Gb  fsl_i2s_dma.o [1]
+IOCON_PinMuxSet         0x0000771f    0x14  Code  Lc  app_adc.o [1]
+IOCON_PinMuxSet         0x0000787d    0x14  Code  Lc  app_dmic.o [1]
+IOCON_PinMuxSet         0x00007651    0x14  Code  Lc  app_key.o [1]
+IOCON_PinMuxSet         0x00005fd9    0x14  Code  Lc  app_led.o [1]
+IOCON_PinMuxSet         0x00007c0d    0x14  Code  Lc  app_pct2075.o [1]
+IOCON_PinMuxSet         0x00007ab1    0x14  Code  Lc  app_spiflash.o [1]
+IOCON_PinMuxSet         0x00006fcb    0x14  Code  Lc  app_usbdmsc.o [1]
+IOCON_PinMuxSet         0x00005565    0x14  Code  Lc  app_wm8904.o [1]
+IOCON_PinMuxSet         0x00007577    0x14  Code  Lc  pin_mux.o [1]
+KEY_GPIO_PIN            0x000097e4     0x4  Data  Gb  app_key.o [1]
+KEY_GPIO_PORT           0x000097e0     0x4  Data  Gb  app_key.o [1]
+LED_GPIO_OFF            0x00009670     0x8  Data  Gb  app_led.o [1]
+LED_GPIO_ON             0x00009668     0x8  Data  Gb  app_led.o [1]
+LED_GPIO_PIN            0x00009660     0x8  Data  Gb  app_led.o [1]
+LED_GPIO_PORT           0x00009658     0x8  Data  Gb  app_led.o [1]
+NVIC_ClearPendingIRQ    0x00007869    0x14  Code  Lc  app_dmic.o [1]
+NVIC_ClearPendingIRQ    0x00006d05    0x14  Code  Lc  fsl_dmic.o [1]
+NVIC_DisableIRQ         0x00003ad1    0x14  Code  Lc  fsl_common.o [1]
+NVIC_EnableIRQ          0x00006f95    0x14  Code  Lc  app_usbdmsc.o [1]
+NVIC_EnableIRQ          0x00003abd    0x14  Code  Lc  fsl_common.o [1]
+NVIC_EnableIRQ          0x00003be5    0x16  Code  Lc  fsl_dma.o [1]
+NVIC_EnableIRQ          0x00006cf1    0x14  Code  Lc  fsl_dmic.o [1]
+NVIC_SetPriority        0x00006fa9    0x22  Code  Lc  app_usbdmsc.o [1]
+NVIC_SetPriority        0x000072e5    0x22  Code  Lc  application.o [1]
+PINT_PatternMatchResetDetectLogic
+                        0x000082fb    0x12  Code  Gb  fsl_pint.o [1]
+PINT_PinInterruptClrStatus
+                        0x000082f1     0xa  Code  Lc  fsl_pint.o [1]
+PIN_INT0_DriverIRQHandler
+                        0x0000830d    0x2a  Code  Gb  fsl_pint.o [1]
+PIN_INT1_DriverIRQHandler
+                        0x00008337    0x2a  Code  Gb  fsl_pint.o [1]
+PIN_INT2_DriverIRQHandler
+                        0x00008361    0x2a  Code  Gb  fsl_pint.o [1]
+PIN_INT3_DriverIRQHandler
+                        0x0000838b    0x2a  Code  Gb  fsl_pint.o [1]
+PIN_INT4_DriverIRQHandler
+                        0x000083b5    0x2a  Code  Gb  fsl_pint.o [1]
+PIN_INT5_DriverIRQHandler
+                        0x000083df    0x2a  Code  Gb  fsl_pint.o [1]
+PIN_INT6_DriverIRQHandler
+                        0x00008409    0x2a  Code  Gb  fsl_pint.o [1]
+PIN_INT7_DriverIRQHandler
+                        0x00008433    0x2a  Code  Gb  fsl_pint.o [1]
+POWER_DisablePD         0x00007771     0xe  Code  Lc  app_adc.o [1]
+POWER_DisablePD         0x00006fdf     0xe  Code  Lc  app_usbdmsc.o [1]
+POWER_DisablePD         0x000075bd     0xe  Code  Lc  clock_config.o [1]
+POWER_DisablePD         0x00004d65    0x10  Code  Lc  fsl_clock.o [1]
+POWER_EnablePD          0x00004d55    0x10  Code  Lc  fsl_clock.o [1]
+POWER_SetVoltageForFreq
+                        0x00007d41   0x104  Code  Gb  fsl_power_lib.o [4]
+POWER_setVdLevel        0x00007d35     0xc  Code  Lc  fsl_power_lib.o [4]
+RESET_ClearPeripheralReset
+                        0x00005f5f    0x46  Code  Gb  fsl_reset.o [1]
+RESET_PeripheralReset   0x00005fc5    0x12  Code  Gb  fsl_reset.o [1]
+RESET_SetPeripheralReset
+                        0x00005f1d    0x42  Code  Gb  fsl_reset.o [1]
+RW$$Base                0x20000000           --   Gb  - Linker created -
+RW$$Limit               0x2000033c           --   Gb  - Linker created -
+Region$$Table$$Base     0x0000920c           --   Gb  - Linker created -
+Region$$Table$$Limit    0x00009230           --   Gb  - Linker created -
+SCT0_IRQHandler         0x00009541     0xc  Code  Gb  fsl_sctimer.o [1]
+SPI_Enable              0x00006279    0x22  Code  Lc  fsl_spi.o [1]
+SPI_MasterGetDefaultConfig
+                        0x0000629b    0x46  Code  Gb  fsl_spi.o [1]
+SPI_MasterInit          0x000062e1   0x12a  Code  Gb  fsl_spi.o [1]
+SPI_MasterSetBaud       0x0000640b    0x64  Code  Gb  fsl_spi.o [1]
+SPI_MasterTransferBlocking
+                        0x0000646f   0x210  Code  Gb  fsl_spi.o [1]
+StartSoundPlayback      0x00005705    0x62  Code  Lc  app_wm8904.o [1]
+SysTick_Config          0x00007307    0x2e  Code  Lc  application.o [1]
+SysTick_Handler         0x00008525    0x30  Code  Gb  app_interrupt.o [1]
+SystemCoreClock         0x200001f4     0x4  Data  Gb  system_LPC54114_cm4.o [1]
+SystemCoreClockUpdate   0x00006b93   0x100  Code  Gb  system_LPC54114_cm4.o [1]
+SystemInit              0x00006b79    0x1a  Code  Gb  system_LPC54114_cm4.o [1]
+TxCallback              0x000056f5    0x10  Code  Lc  app_wm8904.o [1]
+USART_GetDefaultConfig  0x00004855    0x42  Code  Gb  fsl_usart.o [1]
+USART_Init              0x00004761    0xf4  Code  Gb  fsl_usart.o [1]
+USART_ReadBlocking      0x00004983    0x84  Code  Gb  fsl_usart.o [1]
+USART_SetBaudRate       0x00004897    0x96  Code  Gb  fsl_usart.o [1]
+USART_WriteBlocking     0x0000492d    0x56  Code  Gb  fsl_usart.o [1]
+USB0_IRQHandler         0x00007159     0xc  Code  Gb  app_usbdmsc.o [1]
+USB_DeviceAllocateHandle
+                        0x000018f9    0x8e  Code  Lc  usb_device_dci.o [1]
+USB_DeviceApplicationInit
+                        0x00007165    0x7e  Code  Gb  app_usbdmsc.o [1]
+USB_DeviceCallback      0x0000708d    0xcc  Code  Gb  app_usbdmsc.o [1]
+USB_DeviceCancel        0x00001c63    0x26  Code  Gb  usb_device_dci.o [1]
+USB_DeviceCh9GetConfiguration
+                        0x000024b9    0x40  Code  Lc  usb_device_ch9.o [1]
+USB_DeviceCh9GetDescriptor
+                        0x00002407    0xb2  Code  Lc  usb_device_ch9.o [1]
+USB_DeviceCh9GetInterface
+                        0x00002559    0x4c  Code  Lc  usb_device_ch9.o [1]
+USB_DeviceCh9GetStatus  0x0000221d    0xb2  Code  Lc  usb_device_ch9.o [1]
+USB_DeviceCh9SetAddress
+                        0x00002387    0x80  Code  Lc  usb_device_ch9.o [1]
+USB_DeviceCh9SetClearFeature
+                        0x000022cf    0xb8  Code  Lc  usb_device_ch9.o [1]
+USB_DeviceCh9SetConfiguration
+                        0x000024f9    0x60  Code  Lc  usb_device_ch9.o [1]
+USB_DeviceCh9SetInterface
+                        0x000025a5    0x44  Code  Lc  usb_device_ch9.o [1]
+USB_DeviceCh9SynchFrame
+                        0x000025e9    0x4e  Code  Lc  usb_device_ch9.o [1]
+USB_DeviceClassAllocateHandle
+                        0x00001e59    0x94  Code  Lc  usb_device_class.o [1]
+USB_DeviceClassCallback
+                        0x000020bd    0x46  Code  Gb  usb_device_class.o [1]
+USB_DeviceClassEvent    0x00002015    0xa8  Code  Gb  usb_device_class.o [1]
+USB_DeviceClassFreeHandle
+                        0x00001eed    0x80  Code  Lc  usb_device_class.o [1]
+USB_DeviceClassGetDeviceHandle
+                        0x00001fb7    0x5e  Code  Gb  usb_device_class.o [1]
+USB_DeviceClassGetHandleByDeviceHandle
+                        0x00001f6d    0x4a  Code  Lc  usb_device_class.o [1]
+USB_DeviceClassInit     0x00002103    0xf8  Code  Gb  usb_device_class.o [1]
+USB_DeviceControl       0x000019ff    0x26  Code  Lc  usb_device_dci.o [1]
+USB_DeviceControlCallback
+                        0x000026a7   0x222  Code  Gb  usb_device_ch9.o [1]
+USB_DeviceControlCallbackFeedback
+                        0x00002637    0x70  Code  Lc  usb_device_ch9.o [1]
+USB_DeviceControlPipeInit
+                        0x000028c9    0x68  Code  Gb  usb_device_ch9.o [1]
+USB_DeviceDeinit        0x00001c1d    0x28  Code  Gb  usb_device_dci.o [1]
+USB_DeviceDeinitEndpoint
+                        0x00001cdf    0x56  Code  Gb  usb_device_dci.o [1]
+USB_DeviceFreeHandle    0x00001987    0x22  Code  Lc  usb_device_dci.o [1]
+USB_DeviceGetConfigurationDescriptor
+                        0x00007245    0x16  Code  Gb  usb_device_descriptor.o [1]
+USB_DeviceGetControllerInterface
+                        0x000019a9    0x18  Code  Lc  usb_device_dci.o [1]
+USB_DeviceGetDeviceDescriptor
+                        0x00007239     0xc  Code  Gb  usb_device_descriptor.o [1]
+USB_DeviceGetStatus     0x00001d6d    0x74  Code  Gb  usb_device_dci.o [1]
+USB_DeviceGetStringDescriptor
+                        0x0000725b    0x7e  Code  Gb  usb_device_descriptor.o [1]
+USB_DeviceInit          0x00001aff   0x112  Code  Gb  usb_device_dci.o [1]
+USB_DeviceInitEndpoint  0x00001c89    0x56  Code  Gb  usb_device_dci.o [1]
+USB_DeviceLpc3511IpCancel
+                        0x00002fb7    0x7e  Code  Gb  usb_device_lpcip3511.o [1]
+USB_DeviceLpc3511IpControl
+                        0x00003035   0x166  Code  Gb  usb_device_lpcip3511.o [1]
+USB_DeviceLpc3511IpDeinit
+                        0x00002e7b    0x40  Code  Gb  usb_device_lpcip3511.o [1]
+USB_DeviceLpc3511IpEndpointDeinit
+                        0x00002b4d    0x42  Code  Lc  usb_device_lpcip3511.o [1]
+USB_DeviceLpc3511IpEndpointInit
+                        0x00002a8f    0xbe  Code  Lc  usb_device_lpcip3511.o [1]
+USB_DeviceLpc3511IpEndpointStall
+                        0x00002b8f    0x58  Code  Lc  usb_device_lpcip3511.o [1]
+USB_DeviceLpc3511IpEndpointTransfer
+                        0x0000295d    0xac  Code  Lc  usb_device_lpcip3511.o [1]
+USB_DeviceLpc3511IpEndpointUnstall
+                        0x00002be7    0x68  Code  Lc  usb_device_lpcip3511.o [1]
+USB_DeviceLpc3511IpGetEndpointStateStruct
+                        0x00002939    0x24  Code  Lc  usb_device_lpcip3511.o [1]
+USB_DeviceLpc3511IpInit
+                        0x00002df5    0x86  Code  Gb  usb_device_lpcip3511.o [1]
+USB_DeviceLpc3511IpInterruptReset
+                        0x00002dc7    0x2e  Code  Lc  usb_device_lpcip3511.o [1]
+USB_DeviceLpc3511IpInterruptToken
+                        0x00002c4f   0x178  Code  Lc  usb_device_lpcip3511.o [1]
+USB_DeviceLpc3511IpRecv
+                        0x00002fad     0xa  Code  Gb  usb_device_lpcip3511.o [1]
+USB_DeviceLpc3511IpSend
+                        0x00002f5b    0x52  Code  Gb  usb_device_lpcip3511.o [1]
+USB_DeviceLpc3511IpSetDefaultState
+                        0x00002a09    0x86  Code  Lc  usb_device_lpcip3511.o [1]
+USB_DeviceLpc3511IpTransaction
+                        0x00002ed5    0x86  Code  Lc  usb_device_lpcip3511.o [1]
+USB_DeviceLpcIp3511IsrFunction
+                        0x0000319b    0xe0  Code  Gb  usb_device_lpcip3511.o [1]
+USB_DeviceMscAllocateHandle
+                        0x00000301    0x8c  Code  Lc  usb_device_msc.o [1]
+USB_DeviceMscBulkIn     0x000004e3   0x148  Code  Lc  usb_device_msc.o [1]
+USB_DeviceMscBulkOut    0x0000062b   0x2b0  Code  Gb  usb_device_msc.o [1]
+USB_DeviceMscCallback   0x00006fed    0xa0  Code  Gb  app_usbdmsc.o [1]
+USB_DeviceMscCommandLpc3511IpCopy
+                        0x00001061    0x18  Code  Lc  usb_device_msc_ufi.o [1]
+USB_DeviceMscDeinit     0x00000c75    0x22  Code  Gb  usb_device_msc.o [1]
+USB_DeviceMscEndpointsDeinit
+                        0x00000a89    0x34  Code  Gb  usb_device_msc.o [1]
+USB_DeviceMscEndpointsInit
+                        0x000008db   0x18e  Code  Gb  usb_device_msc.o [1]
+USB_DeviceMscEvent      0x00000c97   0x2a2  Code  Gb  usb_device_msc.o [1]
+USB_DeviceMscFreeHandle
+                        0x0000038d    0x18  Code  Lc  usb_device_msc.o [1]
+USB_DeviceMscInit       0x00000abd   0x1b8  Code  Gb  usb_device_msc.o [1]
+USB_DeviceMscLbaTransfer
+                        0x00001035    0x2a  Code  Gb  usb_device_msc.o [1]
+USB_DeviceMscProcessUfiCommand
+                        0x000003a5   0x13e  Code  Gb  usb_device_msc.o [1]
+USB_DeviceMscRecv       0x00000fb7    0x7e  Code  Gb  usb_device_msc.o [1]
+USB_DeviceMscSend       0x00000f39    0x7e  Code  Gb  usb_device_msc.o [1]
+USB_DeviceMscUfiFormatUnitCommand
+                        0x00001799    0x52  Code  Gb  usb_device_msc_ufi.o [1]
+USB_DeviceMscUfiInquiryCommand
+                        0x000013b9    0x50  Code  Gb  usb_device_msc_ufi.o [1]
+USB_DeviceMscUfiModeSelectCommand
+                        0x000015d5    0x62  Code  Gb  usb_device_msc_ufi.o [1]
+USB_DeviceMscUfiModeSenseCommand
+                        0x00001585    0x50  Code  Gb  usb_device_msc_ufi.o [1]
+USB_DeviceMscUfiPreventAllowMediumCommand
+                        0x000017eb    0x4c  Code  Gb  usb_device_msc_ufi.o [1]
+USB_DeviceMscUfiReadCapacityCommand
+                        0x00001637    0x50  Code  Gb  usb_device_msc_ufi.o [1]
+USB_DeviceMscUfiReadCommand
+                        0x00001409    0x86  Code  Gb  usb_device_msc_ufi.o [1]
+USB_DeviceMscUfiReadFormatCapacityCommand
+                        0x00001687   0x10e  Code  Gb  usb_device_msc_ufi.o [1]
+USB_DeviceMscUfiRequestSenseCommand
+                        0x00001389    0x30  Code  Gb  usb_device_msc_ufi.o [1]
+USB_DeviceMscUfiSendDiagnosticCommand
+                        0x00001837    0x4c  Code  Gb  usb_device_msc_ufi.o [1]
+USB_DeviceMscUfiStartStopUnitCommand
+                        0x00001883    0x54  Code  Gb  usb_device_msc_ufi.o [1]
+USB_DeviceMscUfiTestUnitReadyCommand
+                        0x00001515    0x4c  Code  Gb  usb_device_msc_ufi.o [1]
+USB_DeviceMscUfiThirteenCasesCheck
+                        0x00001079   0x310  Code  Gb  usb_device_msc_ufi.o [1]
+USB_DeviceMscUfiUnsupportCommand
+                        0x000018d7    0x22  Code  Gb  usb_device_msc_ufi.o [1]
+USB_DeviceMscUfiVerifyCommand
+                        0x00001561    0x24  Code  Gb  usb_device_msc_ufi.o [1]
+USB_DeviceMscUfiWriteCommand
+                        0x0000148f    0x86  Code  Gb  usb_device_msc_ufi.o [1]
+USB_DeviceNotification  0x00001a73    0x6a  Code  Lc  usb_device_dci.o [1]
+USB_DeviceNotificationTrigger
+                        0x00001add    0x22  Code  Gb  usb_device_dci.o [1]
+USB_DeviceRecvRequest   0x00001c57     0xc  Code  Gb  usb_device_dci.o [1]
+USB_DeviceResetNotification
+                        0x00001a25    0x4e  Code  Lc  usb_device_dci.o [1]
+USB_DeviceRun           0x00001c11     0xc  Code  Gb  usb_device_dci.o [1]
+USB_DeviceSendRequest   0x00001c45    0x12  Code  Gb  usb_device_dci.o [1]
+USB_DeviceSetStatus     0x00001de1    0x78  Code  Gb  usb_device_dci.o [1]
+USB_DeviceStallEndpoint
+                        0x00001d35    0x1c  Code  Gb  usb_device_dci.o [1]
+USB_DeviceTransfer      0x000019c9    0x36  Code  Lc  usb_device_dci.o [1]
+USB_DeviceUnstallEndpoint
+                        0x00001d51    0x1c  Code  Gb  usb_device_dci.o [1]
+USB_OsaEnterCritical    0x00002209     0xa  Code  Gb  usb_osa_bm.o [1]
+USB_OsaExitCritical     0x00002213     0x8  Code  Gb  usb_osa_bm.o [1]
+UTICK0_DriverIRQHandler
+                        0x00009311    0x10  Code  Gb  fsl_utick.o [1]
+WM8904_GetDefaultConfig
+                        0x00005929    0x24  Code  Gb  app_wm8904.o [1]
+WM8904_Init             0x00005767   0x1c2  Code  Gb  app_wm8904.o [1]
+WM8904_ModifyRegister   0x00005699    0x3e  Code  Lc  app_wm8904.o [1]
+WM8904_ReadRegister     0x0000564b    0x4e  Code  Lc  app_wm8904.o [1]
+WM8904_SetAudioFormat   0x0000596d    0x50  Code  Gb  app_wm8904.o [1]
+WM8904_SetMasterSlave   0x0000594d     0xe  Code  Gb  app_wm8904.o [1]
+WM8904_SetProtocol      0x0000595b    0x12  Code  Gb  app_wm8904.o [1]
+WM8904_SetVolume        0x000059bd    0x30  Code  Gb  app_wm8904.o [1]
+WM8904_WaitOnWriteSequencer
+                        0x000056d7    0x1e  Code  Lc  app_wm8904.o [1]
+WM8904_WriteRegister    0x000055ff    0x4c  Code  Lc  app_wm8904.o [1]
+ZI$$Base                0x20000400           --   Gb  - Linker created -
+ZI$$Limit               0x20006c14           --   Gb  - Linker created -
+__RAM_VECTOR_TABLE_SIZE {Abs}
+                        0x00000000           --   Gb  command line/config [2]
+__VECTOR_RAM {Abs}      0x00000000           --   Gb  command line/config [2]
+__VECTOR_TABLE {Abs}    0x00000000           --   Gb  command line/config [2]
+__Vectors               0x00000000           --   Gb  startup_LPC54114_cm4.o [1]
+__Vectors_End           0x000000e0          Data  Gb  startup_LPC54114_cm4.o [1]
+__Vectors_Size {Abs}    0x000000e0           --   Gb  startup_LPC54114_cm4.o [1]
+__aeabi_assert          0x00003b09    0x12  Code  Gb  fsl_common.o [1]
+__aeabi_d2f             0x00008261          Code  Gb  DblToFlt.o [5]
+__aeabi_dmul            0x000080bd          Code  Gb  DblMul.o [5]
+__aeabi_f2d             0x0000806d          Code  Gb  FltToDbl.o [5]
+__aeabi_ldiv0           0x00005561          Code  Gb  I64DivZer.o [6]
+__aeabi_memclr4         0x00004369          Code  Gb  ABImemclr4.o [6]
+__aeabi_memset          0x00003b7d          Code  Gb  ABImemset.o [6]
+__aeabi_uldivmod        0x00005471          Code  Gb  I64DivMod.o [6]
+__cmain                 0x000093a1          Code  Gb  cmain.o [6]
+__exit                  0x000093d1    0x14  Code  Gb  exit.o [7]
+__iar_Memset            0x00003b7d          Code  Gb  ABImemset.o [6]
+__iar_Memset4_word      0x0000472d          Code  Gb  ABImemset48.o [6]
+__iar_Memset8_word      0x0000472d          Code  Gb  ABImemset48.o [6]
+__iar_Memset_word       0x00003b85          Code  Gb  ABImemset.o [6]
+__iar_copy_init3        0x00008fed    0x2c  Code  Gb  copy_init3.o [6]
+__iar_data_init3        0x00009131    0x28  Code  Gb  data_init.o [6]
+__iar_init_vfp          0x000091e9          Code  Gb  fpinit_M.o [5]
+__iar_program_start     0x0000964d          Code  Gb  cstartup_M.o [6]
+__iar_zero_init3        0x00008bb1    0x40  Code  Gb  zero_init3.o [6]
+__low_level_init        0x000093bb     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00000000          Data  Gb  startup_LPC54114_cm4.o [1]
+__vector_table_0x1c     0x0000001c          Data  Gb  startup_LPC54114_cm4.o [1]
+_call_main              0x000093ad          Code  Gb  cmain.o [6]
+_exit                   0x000093c5          Code  Gb  cexit.o [6]
+_main                   0x000093b7          Code  Gb  cmain.o [6]
+adc_init                0x0000777f    0xa8  Code  Gb  app_adc.o [1]
+adc_read                0x00007827    0x24  Code  Gb  app_adc.o [1]
+bADCSampleFlag          0x20006c10     0x1  Data  Gb  app_adc.o [1]
+codecConfig             0x20006940     0x8  Data  Gb  app_wm8904.o [1]
+codecHandle             0x20006948     0x4  Data  Gb  app_wm8904.o [1]
+core1_image_end {Abs}   0x0003ffff           --   Gb  command line/config [2]
+core1_image_start {Abs}
+                        0x00030000           --   Gb  command line/config [2]
+ctimerCallbackType      0x2000696c     0x8  Data  Lc  fsl_ctimer.o [1]
+dmic_init               0x00007977   0x120  Code  Gb  app_dmic.o [1]
+dwLedTicks              0x20006894     0x4  Data  Gb  app_interrupt.o [1]
+dwLedTime               0x20000028     0x4  Data  Gb  app_interrupt.o [1]
+dwSysTicks              0x20006890     0x4  Data  Gb  app_interrupt.o [1]
+exit                    0x000093bf     0x4  Code  Gb  exit.o [3]
+fPCTValue               0x2000694c     0x4  Data  Gb  application.o [1]
+findPllMMult            0x00006b5d    0x1c  Code  Lc  system_LPC54114_cm4.o [1]
+findPllPostDiv          0x00006b41    0x1c  Code  Lc  system_LPC54114_cm4.o [1]
+findPllPreDiv           0x00006b27    0x1a  Code  Lc  system_LPC54114_cm4.o [1]
+flash_transfer_cb       0x00007aff    0x38  Code  Gb  app_spiflash.o [1]
+gAdcResultInfoPtr       0x20000024     0x4  Data  Gb  app_adc.o [1]
+gAdcResultInfoStruct    0x20006880    0x10  Data  Lc  app_adc.o [1]
+g_Ext_Clk_Freq          0x000097ec     0x4  Data  Gb  fsl_clock.o [1]
+g_I2S_Mclk_Freq         0x20006954     0x4  Data  Gb  fsl_clock.o [1]
+g_InquiryInfo           0x20000000    0x24  Data  Gb  app_usbdmsc.o [1]
+g_ModeParametersHeader  0x20000740     0x8  Data  Gb  app_usbdmsc.o [1]
+g_Music                 0x20000044   0x1b0  Data  Gb  app_wm8904.o [1]
+g_UsbDeviceConfigurationDescriptor
+                        0x20000240    0x20  Data  Gb  usb_device_descriptor.o [1]
+g_UsbDeviceDescriptor   0x2000022c    0x14  Data  Gb  usb_device_descriptor.o [1]
+g_UsbDeviceLanguageList
+                        0x2000032c    0x10  Data  Gb  usb_device_descriptor.o [1]
+g_UsbDeviceMscConfig    0x20000224     0x8  Data  Gb  usb_device_descriptor.o [1]
+g_UsbDeviceMscEndpoints
+                        0x200001f8     0x8  Data  Gb  usb_device_descriptor.o [1]
+g_UsbDeviceMscInterface
+                        0x20000200    0x10  Data  Gb  usb_device_descriptor.o [1]
+g_UsbDeviceMscInterfaceList
+                        0x2000021c     0x8  Data  Gb  usb_device_descriptor.o [1]
+g_UsbDeviceMscInterfaces
+                        0x20000210     0xc  Data  Gb  usb_device_descriptor.o [1]
+g_UsbDeviceString0      0x20000260     0x4  Data  Gb  usb_device_descriptor.o [1]
+g_UsbDeviceString1      0x20000264    0x28  Data  Gb  usb_device_descriptor.o [1]
+g_UsbDeviceString2      0x2000028c    0x24  Data  Gb  usb_device_descriptor.o [1]
+g_UsbDeviceString3      0x200002b0    0x24  Data  Gb  usb_device_descriptor.o [1]
+g_UsbDeviceStringN      0x200002d4    0x24  Data  Gb  usb_device_descriptor.o [1]
+g_UsbLanguage           0x20000320     0xc  Data  Gb  usb_device_descriptor.o [1]
+g_UsbStringDescriptorSize
+                        0x200002f8    0x14  Data  Gb  usb_device_descriptor.o [1]
+g_UsbStringDescriptors  0x2000030c    0x14  Data  Gb  usb_device_descriptor.o [1]
+g_configs               0x20006ab8    0x10  Data  Lc  fsl_spi.o [1]
+g_msc                   0x200068a8    0x14  Data  Gb  app_usbdmsc.o [1]
+g_msc_handle            0x20006b34    0xdc  Data  Gb  usb_device_msc.o [1]
+key_init                0x00007665    0x6c  Code  Gb  app_key.o [1]
+key_value               0x000076d1    0x18  Code  Gb  app_key.o [1]
+led_init                0x00005fed    0x6c  Code  Gb  app_led.o [1]
+led_off                 0x00006075    0x1c  Code  Gb  app_led.o [1]
+led_on                  0x00006059    0x1c  Code  Gb  app_led.o [1]
+led_toggle              0x00006091    0x26  Code  Gb  app_led.o [1]
+main                    0x00007359   0x1b4  Code  Gb  application.o [1]
+msc_config              0x2000002c     0xc  Data  Gb  app_usbdmsc.o [1]
+msc_config_list         0x20000038     0xc  Data  Gb  app_usbdmsc.o [1]
+mx25r                   0x20006898    0x10  Data  Gb  app_spiflash.o [1]
+mx25r_cmd_rdid          0x00007acd    0x32  Code  Gb  app_spiflash.o [1]
+mx25r_init              0x00007ac5     0x8  Code  Gb  app_spiflash.o [1]
+pct2075_i2c_init        0x00007c21    0x44  Code  Gb  app_pct2075.o [1]
+pct2075_i2c_read        0x00007c65    0xb6  Code  Gb  app_pct2075.o [1]
+pllDecodeM              0x00006acb    0x5c  Code  Lc  system_LPC54114_cm4.o [1]
+pllDecodeN              0x00006a11    0x68  Code  Lc  system_LPC54114_cm4.o [1]
+pllDecodeP              0x00006a79    0x52  Code  Lc  system_LPC54114_cm4.o [1]
+pllSetup                0x0000934c    0x1c  Data  Gb  app_wm8904.o [1]
+rpmsg_sh_mem_end {Abs}  0x20027fff           --   Gb  command line/config [2]
+rpmsg_sh_mem_start {Abs}
+                        0x20026800           --   Gb  command line/config [2]
+s_DMAHandle             0x20006984    0x50  Data  Lc  fsl_dma.o [1]
+s_DmaDescriptors        0x20006840    0x40  Data  Lc  fsl_i2s_dma.o [1]
+s_DmaPrivateHandle      0x20006a2c    0x68  Data  Lc  fsl_i2s_dma.o [1]
+s_DmaRxHandle           0x200068cc    0x10  Data  Lc  app_wm8904.o [1]
+s_DmaTxHandle           0x200068bc    0x10  Data  Lc  app_wm8904.o [1]
+s_DummyBufferRx         0x20006a28     0x4  Data  Lc  fsl_i2s_dma.o [1]
+s_DummyBufferTx         0x20006a24     0x4  Data  Lc  fsl_i2s_dma.o [1]
+s_I2sBaseAddrs          0x000096c0     0x8  Data  Lc  fsl_i2s_dma.o [1]
+s_MscCbw1               0x20006780    0x20  Data  Gb  usb_device_msc.o [1]
+s_MscCsw1               0x200067c0    0x10  Data  Gb  usb_device_msc.o [1]
+s_Pll_Freq              0x20006950     0x4  Data  Lc  fsl_clock.o [1]
+s_RxConfig              0x200068f0    0x14  Data  Lc  app_wm8904.o [1]
+s_StorageDisk           0x20000780  0x6000  Data  Lc  app_usbdmsc.o [1]
+s_TxConfig              0x200068dc    0x14  Data  Lc  app_wm8904.o [1]
+s_TxHandle              0x20006904    0x34  Data  Lc  app_wm8904.o [1]
+s_TxTransfer            0x20006938     0x8  Data  Lc  app_wm8904.o [1]
+s_UfiAlignBuffer1       0x20006800    0x40  Data  Gb  usb_device_msc.o [1]
+s_UsbDevice             0x20006ae4    0x50  Data  Lc  usb_device_dci.o [1]
+s_UsbDeviceClassInterfaceMap
+                        0x000092f0    0x20  Data  Lc  usb_device_class.o [1]
+s_UsbDeviceCommonClassStruct
+                        0x20006ad0    0x14  Data  Lc  usb_device_class.o [1]
+s_UsbDeviceLpc3511IpInterface
+                        0x000094ec    0x18  Data  Lc  usb_device_dci.o [1]
+s_UsbDeviceLpc3511IpState1
+                        0x20000600   0x118  Data  Lc  usb_device_lpcip3511.o [1]
+s_UsbDeviceStandardRequest
+                        0x00008f2c    0x34  Data  Lc  usb_device_ch9.o [1]
+s_adcBases              0x000097e8     0x4  Data  Lc  fsl_adc.o [1]
+s_adcClocks             0x0000105e     0x2  Data  Lc  fsl_adc.o [1]
+s_ctimerBases           0x00009504    0x14  Data  Lc  fsl_ctimer.o [1]
+s_ctimerCallback        0x20006958    0x14  Data  Lc  fsl_ctimer.o [1]
+s_debugConsole          0x20006974    0x10  Data  Lc  fsl_debug_console.o [1]
+s_dmaBases              0x000097f0     0x4  Data  Lc  fsl_dma.o [1]
+s_dmaIRQNumber          0x00007237     0x1  Data  Lc  fsl_dma.o [1]
+s_dma_descriptor_table  0x20000400   0x140  Data  Gb  fsl_dma.o [1]
+s_dmicBases             0x000097f4     0x4  Data  Lc  fsl_dmic.o [1]
+s_dmicCallback          0x200069d4     0x4  Data  Lc  fsl_dmic.o [1]
+s_dmicClock             0x0000221a     0x2  Data  Lc  fsl_dmic.o [1]
+s_dmicHwvadCallback     0x200069d8     0x4  Data  Lc  fsl_dmic.o [1]
+s_dmicHwvadIRQ          0x000080ba     0x1  Data  Lc  fsl_dmic.o [1]
+s_flexcommBaseAddrs     0x00009290    0x20  Data  Lc  fsl_flexcomm.o [1]
+s_flexcommClocks        0x000095e4    0x10  Data  Lc  fsl_flexcomm.o [1]
+s_flexcommHandle        0x200069fc    0x20  Data  Lc  fsl_flexcomm.o [1]
+s_flexcommIrqHandler    0x200069dc    0x20  Data  Lc  fsl_flexcomm.o [1]
+s_gintBases             0x00009688     0x8  Data  Lc  fsl_gint.o [1]
+s_gintCallback          0x20006a1c     0x8  Data  Lc  fsl_gint.o [1]
+s_pintCallback          0x20006a94    0x20  Data  Lc  fsl_pint.o [1]
+s_sctimerIsr            0x20006ab4     0x4  Data  Lc  fsl_sctimer.o [1]
+s_utickHandle           0x20006ac8     0x4  Data  Lc  fsl_utick.o [1]
+s_utickIsr              0x20006acc     0x4  Data  Lc  fsl_utick.o [1]
+spiflash_init           0x00007b37    0xb2  Code  Gb  app_spiflash.o [1]
+strlen                  0x00004a1d          Code  Gb  strlen.o [6]
+usbdmsc_init            0x000071e3    0x1c  Code  Gb  app_usbdmsc.o [1]
+usbdmsc_proc            0x00007235     0x2  Code  Gb  app_usbdmsc.o [1]
+wdtFreqLookup           0x00009270    0x20  Data  Lc  fsl_clock.o [1]
+wdtFreqLookup           0x000092d0    0x20  Data  Lc  system_LPC54114_cm4.o [1]
+wm8904_i2s_init         0x000059ed   0x13c  Code  Gb  app_wm8904.o [1]
+
+
+[1] = D:\LQ\IAR\lpc54110\software\lpc54110\software\prj_iar\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = iar_lib_power.a
+[5] = m7M_tls.a
+[6] = rt7M_tl.a
+[7] = shb_l.a
+
+  33 611 bytes of readonly  code memory
+   4 797 bytes of readonly  data memory
+  28 493 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
